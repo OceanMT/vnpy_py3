@@ -1,0 +1,11 @@
+第一次安装可以直接安装使用，之前安装过的覆盖下vtEngine.py就好了(修复了写出日志中文乱码......)
+
+0:只有一个ctp py3 64位接口(感谢论坛朋友分享)介意勿装
+1:一定要先pip uninstall vnpy和卸载anoconda2,再安装最新anoconda3 64位
+2:点击install.bat安装,安装到ta-lib时关闭,手动安装64位talib py3.6.whl
+3:vnpy-dev目录下运行
+python setup.py install(win10需要以管理员身份运行cmd再cd到setup.py目录)
+4:win10用户安装完找到vnpy-1.7.1-py3.6.egg文件夹，右键点击属性/安全/编辑/添加/高级/立即查找/点击Everyone再点击确定/确定/确定/确定,好了可以正常读写文件了
+5:已知python3版本策略使用到barmanager跑优化异常，建议使用老的方法合成K线
+
+
